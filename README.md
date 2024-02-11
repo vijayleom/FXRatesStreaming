@@ -2,7 +2,7 @@
 
 FX Rates for currency pair of MXN/USD and USD/EUR are dynamically generated within a given range over a specific interval. The system carefully stores the ticks generated and an a fixed time delay, based on the last ticks generated for the given currency, a logic is put in place to determine the FX Rates for the currency MXN/EUR. This is dynamically done and the time delay it hold is different from those for the predefined currency set.
 
-We have used Server-Side Events workflow to orchestrate the continuous streaming of the live event of this dynalic computation without any delay and to the precision value. This is uni-directional architecture and this way of communication will be much efficient.
+In this approach, I have used Server-Side Events workflow to orchestrate the continuous streaming of the live event of this dynamic computation without any delay and to the precision value. This is uni-directional architecture and this way of communication will be much efficient.
 
 Testing is covered for the context loadings and Currency Structures. More Testing can be added inline to the services orchestration and workflow.
 
