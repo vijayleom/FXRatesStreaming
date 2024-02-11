@@ -1,0 +1,15 @@
+fx:
+  newCurrency: "MXN/EUR"
+  marketRates:
+    -
+      currency: MXN/USD
+      rangeStart: 0.5700
+      rangeEnd: 0.5999
+      rangeInterval: 100
+      rangeUnit: MILLISECONDS
+    -
+      currency: USD/EUR
+      rangeStart: 0.9050
+      rangeEnd: 0.9150
+      rangeInterval: 25
+      rangeUnit: MILLISECONDS
